@@ -108,6 +108,8 @@ def commit_to_git(path):
     ignorelist = [
         ".*~",
         "*~",
+        "*.info",
+        "*.mod",
         "*.swp",
         ".repo-index",
         "*.log",
@@ -117,6 +119,7 @@ def commit_to_git(path):
         "!*.tar.*.*",
         "*.zip",
         "commitmsg",
+        "list",
         "results/",
         "rpms/",
         "for-review.txt",
